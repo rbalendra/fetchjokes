@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Programming Jokes</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" type="module"></script>
+
+    </head>
+
+    <body>
+        <div class="joke-container">
+            <h1>Programming Jokes</h1>
+
+            <form id="joke-form">
+                <label for="limit">How many jokes you like to hear?</label>
+                <input id="joke-num" name="limit" type="number" placeholder="type a number within 1-5" min="1"
+                    max="5"></input>
+                <button type="submit" id="joke-btn">Generate Joke</button>
+
+                <ul id="joke-list">
+
+                </ul>
+            </form>
+            <p id="error-message"></p>
+        </div>
+
+
+
+
+
+    </body>
+
+</html>

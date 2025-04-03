@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+   
+}
+h1{
+    font-size: 3rem;
+    color: #000;;
+    background-color: rgb(219, 152, 63);;
+    padding: 20px;
+    border-radius: 10px;;
+}
+.joke-container{ 
+    display:flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: center;
+    gap: 20px;
+        background-color: burlywood;        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        max-width: 800px;
+        margin:20px auto;
+    & label{
+        align-items: center ;
+    }
+}
+
+
+button {
+    background-color: #ff8800;
+    color: white;   
+    border-radius: 5px;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 300px;
+    margin: 0 auto;
+    height: auto; 
+    min-height: 50px;
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+}
+
+button:hover {
+    background-color: #ce6e00;
+}
+
+#joke-message{
+        font-size: 2.5rem;
+        margin: 2rem;
+        min-height: 3.5rem;
+        font-weight: bold;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form label {
+    text-align: center;
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+#joke-num{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 auto;
+    height: 40px;
+    font-size: 2rem;
+    padding: 10px;
+    width: 400px;
+}
+
+#joke-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size:1.2rem;
+    margin-top: 20px;
+    background-color: rgb(255, 222, 162);
+    list-style-type: "→ ";
+    font-weight: 500;
+    padding: 20px;
+}
