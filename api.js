@@ -5,8 +5,8 @@ export const getJoke = async (limit) => {
         }
     });
 
-    if (!response.ok) {
-        throw new Error("Could not get data")
+    if (!response.ok) { 
+        throw new Error("Could not get data") }
     }
 
     const data = await response.json();

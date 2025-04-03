@@ -8,11 +8,11 @@ const errorPara = document.querySelector("#error-message");
 
 
 form.addEventListener("submit", async (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     // Clear both the jokes container and error message
     removeAllChildren(jokesList);
-    errorPara.innerText = "";
+    errorPara.innerText = ""; 
 
     try {
         const formData = new FormData(form);
